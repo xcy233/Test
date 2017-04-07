@@ -6,7 +6,7 @@ import play.api.mvc._
 class Application extends Controller {
 
   def index = Action {
-    Ok(views.html.index("I'm the old branch!"))
+    Ok(views.html.index("I'm the merged branch!"))
   }
 
 }
